@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Flowerify-Hugo</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+</head>
+
+<body class="container">
+    <header>
+        <nav class="navbar navbar-expand navbar-light bg-white">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand uno offset-1" href="#">H.BLOOM</a>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">BUSSINES <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SUBCRIPTIONS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">WEDDINGS</a>
+                    </li>
+                </ul>
+                <nav class="mr-5 mt-2">
+                    <button class="btn btn-block pl-5 pr-5 pb-3 pt-3"><a class="rojo" href="#">CONTACT US</a></button>
+                    <button class="btn btn-block pl-5 pr-5 pb-3 pt-3 "><a class="quita" href="#">LOG IN</a></button>
+                </nav>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="primero" class="bg-dark text-white py-5 fondo mx-5">
+            <div id="fle" class="d-flex flex-wrap justify-content-center">
+                <div class="mr-5 text-center contenido">
+                    <h2 class="mb-4 mt-4 letra"><span>THE<br>PERFECT TOUCH</span></h2>
+                    <p class="mb-4 letra2">Custom floral arrangements tailored to your style and space. Starting at $75 per delivery.</p>
+                    <p class="letra2">Schedule a complimentary design consultation today.</p>
+                </div>
+                <form action="#">
+                    <div class="mb-3">
+                        <label for="fullname" class="form-label">FULL NAME</label>
+                        <input type="text" class="form-control" id="fullname">
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">PHONE</label>
+                        <input type="number" class="form-control" id="phone">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">EMAIL</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="city" class="form-label">CITY</label>
+                        <input type="text" class="form-control" id="city">
+                    </div>
+                    <div class="mb-3">
+                        <label for="comments" class="form-label">COMMENTS</label>
+                        <textarea class="form-control" id="comments" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary boton">Submit</button>
+                </form>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="text-center mt-3 ">HOW IT WORKS</h2>
+            <div class="xl-row text-center ">
+                <div class="col">
+                    <article class="row ">
+                        <div class="col-xl-3 ml-5">
+                            <div>
+                                <hr><span class="num">- 1 -</span>
+                                <hr>
+                            </div>
+                            <h3 class="titi">DESIGN</h3>
+                            <p>Your personal design consultant meets with you to discuss style, preferences and space.</p>
+                        </div>
+                        <div class="col-xl-3 offset-1">
+                            <div>
+                                <hr><span class="num">- 2 -</span>
+                                <hr>
+                            </div>
+                            <h3 class="titi">SCHEDULE</h3>
+                            <p>We provide a custom proposal for floral service based on your schedule (weekly, bi-weekly or monthly).</p>
+                        </div>
+                        <div class="col-xl-3 offset-1">
+                            <div>
+                                <hr><span class="num">- 3 -</span>
+                                <hr>
+                            </div>
+                            <h3 class="titi">ENJOY</h3>
+                            <p>We hand deliver your custom arrangements for you to enjoy. It's that simple.</p>
+                    </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="bg p-4 ultimo text-md-center">
+            <section class="row align-items-center">
+                <article class="col-lg">
+                    <img src="./img/subscriptions-1.jpg" alt="subscriptions-1">
+                </article>
+                <article class="col-lg">
+                    <img src="./img/subscriptions-2.jpg" alt="subscriptions-2">
+                </article>
+                <article class="col-lg">
+                    <img src="./img/subscriptions-3.jpg" alt="subscriptions-3">
+                </article>
+            </section>
+        </div>
+    </main>
+    <footer class="text-center fut p-1">
+        Layout12-Hugo
+    </footer>
+</body>
+
+</html>
