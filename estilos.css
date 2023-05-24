@@ -1,0 +1,64 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.uno {
+    font-size: 3.5rem !important;
+}
+
+.rojo {
+    color: orangered !important;
+}
+
+.quita {
+    color: black !important;
+}
+
+.contenido {
+    width: 60%;
+    font-size: 3rem !important;
+}
+
+.letra {
+    font-size: 4rem !important;
+    font-weight: bold;
+}
+
+.letra2 {
+    font-size: 2.5rem !important;
+}
+
+.fondo {
+    background-image: url("img/residential-banner-2.jpg") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    background-position-x: 50%
+}
+
+.boton {
+    background-color: orangered !important;
+    margin-left: 60%;
+    border-color: orangered!important;
+}
+
+.num {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.titi {
+    font-size: 2.5rem;
+}
+
+.ultimo {
+    background-color: rgb(243, 237, 237);
+}
+
+.fut {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.toto {
+    font-size: 2rem
+}
